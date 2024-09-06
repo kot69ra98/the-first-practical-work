@@ -150,7 +150,7 @@ background-image: url("../img/decorate-1.png");
   padding-left: 15px;
 }
 
-.main-paragraf{
+.main .paragraf{
   width:  692px;
   margin-bottom: 10px;
 }
@@ -204,4 +204,143 @@ background-image: url("../img/decorate-1.png");
   color: #333;
 }
 
+modules
 
+.subtitle-modyles{
+color: #3F2AFF;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.container-modules{
+  padding: 50px 0;
+}
+
+.card{
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  padding: 205px 25px 25px;
+  margin-right:25px;
+  margin-bottom: 25px;
+  list-style-type: none;
+  background: no-repeat;
+  vertical-align: top;
+  width: 572px;
+  height: 505px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.10);
+  }
+
+.card:nth-child(2n){
+  margin-right: 0px;
+}
+
+.card:nth-child(n+2){
+  margin-bottom: 0px;
+}
+
+.items-modules{
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.card-img1{
+  background-image: url("../img/vedenie.png");
+}
+
+.card-img2{
+  background-image: url("../img/proga.png");
+}
+
+.card-img3{
+  background-image: url("../img/knigi.png");
+}
+
+.card-img4{
+  background-image: url("../img/kyrtka.png");
+}
+
+.subtitle-modules{
+  color: #3F2AFF;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  
+}
+
+.title-modules{
+  color: #3F2AFF;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+  
+}
+
+.title-list{
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.items-list{
+  padding: 0;
+}
+
+.items-modules{
+  color: #333;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165%;
+}
+
+.number{
+  position: absolute;
+  color: #EAEAEA;
+  text-align: right;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  bottom: 25px;
+  right: 25px;
+
+}
+
+.button-modules{
+  display: block;
+  color: #3F2AFF;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 auto;
+  padding: 25px 76px;
+  border: 2px solid #3F2AFF;
+  background-color: inherit;
+
+}
+
+
+.logo-modules{
+  display: block;
+  color: #3F2AFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 25px 0;
+  padding-left: 52px;
+  background-image: url("../img/Arrow1.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  
+}
